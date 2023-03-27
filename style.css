@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#3c3b3f, #605c3c);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card {
+  background: linear-gradient(#ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  width: 24rem;
+  height: 18rem;
+  border-radius: 5px;
+}
+
+.infoBox {
+  font-family: "Inter", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+  padding: 10px;
+  width: 40%;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  /* height: 200px;
+  width: 200px;
+  border-radius: 3px; */
+  max-width: 100%;
+  min-width: 200px;
+  max-height: 100%;
+  object-fit: contain;
+}
